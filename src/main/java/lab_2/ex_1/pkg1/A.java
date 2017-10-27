@@ -1,12 +1,12 @@
-package main.java.lab_2.ex_1.pkg1;
+package lab_2.ex_1.pkg1;
 
 /* Pola o dost?pie pakietowym s? dost?ne w klasach pochodnych kt?re s? w tym samym pakiecie*/
 public class A {
  int number;
 protected String name;
 
-public A(int number, String name){};
-public A(){};
+public A(int number, String name){}
+public A(){}
 
 public int getNumber(){
     return number;

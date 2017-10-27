@@ -1,3 +1,5 @@
+package lab_1.ex_2;
+
 /**
  * Klasa wy?wietlajaca powitaniena konsoli.
  * @author Szymon

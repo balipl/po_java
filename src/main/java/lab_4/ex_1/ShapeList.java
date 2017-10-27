@@ -1,4 +1,4 @@
-package lab_4.ex_4;
+package lab_4.ex_1;
 import lab_3.ex_1.*;
 import lab_3.ex_4.Rectangle;
 import lab_3.ex_4.Shape;

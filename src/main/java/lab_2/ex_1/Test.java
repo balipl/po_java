@@ -1,6 +1,6 @@
-package main.java.lab_2.ex_1;
+package lab_2.ex_1;
 
-import main.java.lab_2.ex_1.pkg1.B;
+import lab_2.ex_1.pkg1.B;
 
 public class Test {
     public static void main(String[] argv){

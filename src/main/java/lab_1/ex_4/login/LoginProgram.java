@@ -1,4 +1,4 @@
-/*
+package lab_1.ex_4.login;/*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */

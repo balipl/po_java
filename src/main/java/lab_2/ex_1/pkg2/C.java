@@ -1,6 +1,6 @@
-package main.java.lab_2.ex_1.pkg2;
+package lab_2.ex_1.pkg2;
 
-import main.java.lab_2.ex_1.pkg1.B;
+import lab_2.ex_1.pkg1.B;
 
 public class C extends B {
 

@@ -1,4 +1,4 @@
-package main.java.lab_2.ex_1.pkg1;
+package lab_2.ex_1.pkg1;
 
 public class B extends A {
 
