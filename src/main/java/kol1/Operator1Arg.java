@@ -1,4 +1,4 @@
 package kol1;
 
-public class Operator1Arg {
+public abstract  class  Operator1Arg extends Operator{
 }
