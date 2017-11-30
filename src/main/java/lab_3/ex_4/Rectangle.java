@@ -1,13 +1,19 @@
 package lab_3.ex_4;
 
+import java.awt.*;
+
 public class Rectangle extends Shape {
     public void draw() {
-        for (int i = 0; i < 5; i++) {
             System.out.println("To jest prostokat  ");
-        }
     }
 
-    public Rectangle(int size1) {
-        size = size1;
+    public Rectangle(int x, int y){
+        this.x = x;
+        this.y = y;
+    }
+
+    @Override
+    public void draw(Graphics grafika) {
+        grafika.fillRect(this.x,this.y,100,200);
     }
 }

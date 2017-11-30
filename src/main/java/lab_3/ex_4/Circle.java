@@ -1,12 +1,22 @@
 package lab_3.ex_4;
 
+import java.awt.*;
+
 public class Circle extends Shape {
     public void draw() {
-        for (int i = 0; i < 5; i++) {
-            System.out.println("To jest kolo");
-        }
+        System.out.println("To jest kolo");
     }
-    public Circle (int size1) {
-        size = size1;
+
+    public Circle(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    @Override
+    public void draw(Graphics grafika) {
+
+        grafika.fillOval(this.x,this.y,100,100);
+        grafika.setColor(Color.blue);
+
     }
 }
