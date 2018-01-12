@@ -6,7 +6,6 @@ public class Test {
 
     public static void main(String[] argv) {
         try {
-            PhotosSort.PhotosSort("/home/grove/Pobrane/foto");
         } catch (Exception e) {
             e.printStackTrace();
         }

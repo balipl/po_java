@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class Test {
 public static void main(String[] argv){
     ExerciseOne a = new ExerciseOne();
-    System.out.println(a.Method1(4.5));
+    System.out.println(ExerciseOne.Method1(4.5));
 
     LinkedList<Double> listaM = new LinkedList<Double>();
     listaM.add(3.);
@@ -14,6 +14,6 @@ public static void main(String[] argv){
     listaM.add(1.3);
 
 
-    System.out.println(a.Method2(listaM));
+    System.out.println(ExerciseOne.Method2(listaM));
 }
 }
